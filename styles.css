@@ -1,5 +1,31 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
 }
 
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.header{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 0 200px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top div{
+    
+}
