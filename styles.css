@@ -78,7 +78,9 @@ button{
 }
 
 .intro h1{
-    font-size: 48px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .info{
@@ -90,13 +92,45 @@ button{
     justify-content: center;
     align-items: center;
     margin-top: 48px;
-    gap: 32px;
+    gap: 48px;
 }
 
 .card{
-    height: 200px;
-    width: 200px;
-    border: black solid;
+    width: 170px;
+}
+
+.card img{
+    height: auto;
+    width: 170px;
+    border-radius: 5px;
+    border: #3882F6 solid 2px;
+}
+
+.card p{
+    margin-top:10px;
+    color: #6a717c;
+}
+
+.testimonial{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #47505d;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.qoute, .author{
+    padding: 0 100px;
+}
+
+.author{
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 
