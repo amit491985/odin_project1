@@ -32,7 +32,7 @@ button{
     font-weight: bold;
 }
 
-.header,.info,.testimonial,.container{
+.header,.info,.testimonial,.call2act{
     padding: 0 200px;
     margin-bottom: 48px;
 }
@@ -131,6 +131,37 @@ button{
     text-align: right;
     font-size: 24px;
     font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 48px 24px;
+    margin: 64px 24px;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.actionmsg h3,p{
+    margin: 0;
+    color: #f9faf8;
+}
+
+.actionmsg p{
+    margin: 0;
+    color: #dddedd;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.container button{
+    border: white solid;
+    border-radius: 5px;
+    font-size: large;
+    margin: 0;
+    padding: 8px 32px;
 }
 
 
