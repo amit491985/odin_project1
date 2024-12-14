@@ -32,8 +32,9 @@ button{
     font-weight: bold;
 }
 
-.header,.cards,.testimonial,.container{
+.header,.info,.testimonial,.container{
     padding: 0 200px;
+    margin-bottom: 48px;
 }
 
 .header{
@@ -80,8 +81,23 @@ button{
     font-size: 48px;
 }
 
-.cards{
-    /* display: flex;
-    justify-content: center; */
+.info{
+    text-align: center;
 }
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    gap: 32px;
+}
+
+.card{
+    height: 200px;
+    width: 200px;
+    border: black solid;
+}
+
+
 
