@@ -32,7 +32,7 @@ button{
     font-weight: bold;
 }
 
-.header,.info,.testimonial,.call2act{
+.header,.info,.testimonial,.call2act,.footer{
     padding: 0 200px;
     margin-bottom: 48px;
 }
@@ -162,6 +162,18 @@ button{
     font-size: large;
     margin: 0;
     padding: 8px 32px;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin:0;
+    color: #dcdedb;
+    font-size: larger;
+    font-weight: lighter;
 }
 
 
